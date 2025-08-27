@@ -1,0 +1,36 @@
+ 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: #283de0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.998);
+}
+.navbar .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.navbar ul li a:hover{
+    color: #ff0000;
+}
